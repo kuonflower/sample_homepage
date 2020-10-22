@@ -1,0 +1,108 @@
+body{
+    font-family: "FUTURA";
+}
+
+header{
+    height:65px;
+    width:100%;
+    background-color: rgba(34,49,52,0.9);
+    position:fixed;
+    top:0;
+    z-index: 10;
+    float:left;
+    display:flex;
+   
+}
+.logo{
+    float:left;
+    padding :0 25px;
+   
+}
+
+header span{
+    color:red
+}
+.header-right{
+    float: right;
+    padding:0 25px;
+    
+}
+
+
+
+.top-wrapper{
+    text-align:center;
+    height:500px;
+    background-image: url(pc.jpg);
+    background-size: cover;
+    display:flex;
+}
+
+.container{
+    width:500px;
+    margin: auto;
+}
+
+.top-wrapper h1{
+    color:white;
+    opacity: 0.7;
+    letter-spacing: 10px;
+    font-family: "FUTURA";
+    
+}
+.top-wrapper h2{
+    color:white;
+    opacity: 0.7;
+    letter-spacing: 10px;
+    font-family: "FUTURA";
+}
+
+.wrapper-menu{
+    display:flex;
+}
+.menu{
+    text-align:center;
+    width:25%;
+    height:100;
+    margin:10px;
+    padding:20px;
+    border-radius: 10px;
+
+}
+.menu:hover{
+    background-color:rgb(219, 219, 219);
+    transition:all 800ms 30ms ease;
+    
+}
+.menu-logo{
+    size:cover;
+
+    widows: 100%;
+}
+.wrapper-article{
+    display:flex;
+    width:100%;
+}
+.article{
+    position: relative;
+    text-align:center;
+    width:33%;
+    height:100;
+    margin:10px;
+    padding:20px;
+}
+.text{
+    position: relative;
+    text-align: center;
+    top:-190px;
+    
+   
+    color:white;
+}
+li{
+    list-style-type: none;
+}
+footer{
+    text-align:center;
+}
+

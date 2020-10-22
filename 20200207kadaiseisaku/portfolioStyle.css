@@ -1,0 +1,117 @@
+body{
+    font-family: "FUTURA";
+}
+
+header{
+    height:65px;
+    width:100%;
+    background-color: rgba(34,49,52,0.9);
+    position:fixed;
+    top:0;
+    z-index: 10;
+    float:left;
+    display:flex;
+   
+}
+.logo{
+    float:left;
+    padding :0 25px;
+   
+}
+
+header span{
+    color:red
+}
+.header-right{
+    float: right;
+    padding:0 25px;
+    
+}
+
+
+
+.top-wrapper{
+    text-align:center;
+    color:rgb(255, 255, 255);
+    height:500px;
+    background-image: url(portfolio.pc.jpg);
+    background-size: cover;
+    display:flex;
+    width:100%;
+    margin: auto;
+   
+    
+
+}
+
+.wrapper-top{
+    
+    width:100%;
+    margin: auto;
+    display:flex;
+    
+    
+    
+    
+}
+.top-left{
+    text-align:center;
+   width:100%;
+   height:100;
+   margin:10px;
+   padding:20px;
+
+}
+.top-right{
+    text-align:center;
+   width:100%;
+   height:100;
+   margin:10px;
+   padding:20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper-menu{
+    display:flex;
+}
+.menu{
+    text-align:center;
+    width:25%;
+    height:100;
+    margin:10px;
+    padding:20px;
+    border-radius: 10px;
+
+}
+.menu:hover{
+    background-color:rgb(219, 219, 219);
+    transition:all 800ms 30ms ease;
+    
+}
+.menu-logo{
+    size:cover;
+
+    widows: 100%;
+}
+
+footer{
+    text-align:center;
+}
+
